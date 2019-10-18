@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--google的百分比布局-->
+<!--<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.sty.ne.screen.adapter.percent.MainActivity">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="宽：50%， 高：75%"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--app:layout_widthPercent="50%"-->
+        <!--app:layout_heightPercent="75%"/>-->
+
+<!--</android.support.percent.PercentRelativeLayout>-->
+
+<!--自定义的百分比布局-->
+<com.sty.ne.screen.adapter.percent.PercentLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sty.ne.screen.adapter.percent.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宽：50%， 高：75%"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        app:widthPercent="0.5"
+        app:heightPercent="0.75"/>
+    <!--android:layout_centerInParent="true"-->
+
+</com.sty.ne.screen.adapter.percent.PercentLayout>
